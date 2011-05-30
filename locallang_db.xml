@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'bb_rpglog'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_bbrpglog_characer">RPG Character</label>
+			<label index="tx_bbrpglog_characer.player">player</label>
+			<label index="tx_bbrpglog_characer.name">Charname</label>
+			<label index="tx_bbrpglog_characer.avatar">Avatar</label>
+			<label index="tx_bbrpglog_group">RPG Group</label>
+			<label index="tx_bbrpglog_group.name">Groupname</label>
+			<label index="tx_bbrpglog_group.description">description</label>
+			<label index="tx_bbrpglog_group.member">member</label>
+			<label index="tx_bbrpglog_rules">RPG Rules</label>
+			<label index="tx_bbrpglog_rules.name">rules</label>
+			<label index="tx_bbrpglog_rules.class">extension</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_bbrpglog_characer">Rollenspiel Charakter</label>
+			<label index="tx_bbrpglog_characer.player">Spieler</label>
+			<label index="tx_bbrpglog_characer.name">Charaktername</label>
+			<label index="tx_bbrpglog_characer.avatar">Avatar</label>
+			<label index="tx_bbrpglog_group">Rollenspielgruppe</label>
+			<label index="tx_bbrpglog_group.name">Gruppenname</label>
+			<label index="tx_bbrpglog_group.description">Beschreibung</label>
+			<label index="tx_bbrpglog_group.member">Mitglieder</label>
+			<label index="tx_bbrpglog_rules">Rollenspiel Regelsystem</label>
+			<label index="tx_bbrpglog_rules.name">Regelsystem</label>
+			<label index="tx_bbrpglog_rules.class">Erweiterung</label>
+		</languageKey>
+	</data>
+</T3locallang>
