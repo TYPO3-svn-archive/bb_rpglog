@@ -12,27 +12,29 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'RPG Logger',
-	'description' => '',
+	'description' => '...later...',
 	'category' => 'fe',
 	'author' => 'Bastian Bringenberg',
+	'author_company' =>'Bastian Bringenberg',
 	'author_email' => 'typo3@bastian-bringenberg.de',
-	'shy' => '',
-	'dependencies' => 'cms',
+	'dependencies' => 'extbase,fluid',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
 	'state' => 'alpha',
 	'internal' => '',
-	'uploadfolder' => 1,
-	'createDirs' => 'uploads/tx_bbrpglog/rte/',
+//	'uploadfolder' => 1,
+//later	'createDirs' => 'uploads/tx_bbrpglog/rte/',
 	'modify_tables' => '',
-	'clearCacheOnLoad' => 0,
+	'clearCacheOnLoad' => 1,
 	'lockType' => '',
 	'author_company' => '',
 	'version' => '0.0.0',
 	'constraints' => array(
 		'depends' => array(
 			'cms' => '',
+			'extbase' => '1.0.0-0.0.0',
+			'fluid' => '1.0.0-0.0.0'
 		),
 		'conflicts' => array(
 		),

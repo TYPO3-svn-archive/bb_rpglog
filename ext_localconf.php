@@ -2,8 +2,9 @@
 if (!defined('TYPO3_MODE')) {
 	die ('Access denied.');
 }
+/** Zu reinigen **/
 t3lib_extMgm::addUserTSConfig('
-	options.saveDocNew.tx_bbrpglog_characer=1
+	options.saveDocNew.tx_bbrpglog_character=1
 ');
 t3lib_extMgm::addUserTSConfig('
 	options.saveDocNew.tx_bbrpglog_group=1
@@ -24,4 +25,7 @@ RTE.config.tx_bbrpglog_group.description {
   }
 }
 ');
+
+Tx_Extbase_Utility_Extension::configurePlugin($_EXTKEY,'list',array('Character'=>'list'));
+Tx_Extbase_Utility_Extension::registerPlugin($_EXTKEY,'list','Characterliste');
 ?>

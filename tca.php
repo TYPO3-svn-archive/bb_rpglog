@@ -3,12 +3,12 @@ if (!defined('TYPO3_MODE')) {
 	die ('Access denied.');
 }
 
-$TCA['tx_bbrpglog_characer'] = array (
-	'ctrl' => $TCA['tx_bbrpglog_characer']['ctrl'],
+$TCA['tx_bbrpglog_character'] = array (
+	'ctrl' => $TCA['tx_bbrpglog_character']['ctrl'],
 	'interface' => array (
 		'showRecordFieldList' => 'hidden,player,name,avatar'
 	),
-	'feInterface' => $TCA['tx_bbrpglog_characer']['feInterface'],
+	'feInterface' => $TCA['tx_bbrpglog_character']['feInterface'],
 	'columns' => array (
 		'hidden' => array (		
 			'exclude' => 1,
@@ -20,7 +20,7 @@ $TCA['tx_bbrpglog_characer'] = array (
 		),
 		'player' => array (		
 			'exclude' => 0,		
-			'label' => 'LLL:EXT:bb_rpglog/locallang_db.xml:tx_bbrpglog_characer.player',		
+			'label' => 'LLL:EXT:bb_rpglog/locallang_db.xml:tx_bbrpglog_character.player',		
 			'config' => array (
 				'type' => 'select',	
 				'foreign_table' => 'fe_users',	
@@ -32,7 +32,7 @@ $TCA['tx_bbrpglog_characer'] = array (
 		),
 		'name' => array (		
 			'exclude' => 0,		
-			'label' => 'LLL:EXT:bb_rpglog/locallang_db.xml:tx_bbrpglog_characer.name',		
+			'label' => 'LLL:EXT:bb_rpglog/locallang_db.xml:tx_bbrpglog_character.name',		
 			'config' => array (
 				'type' => 'input',	
 				'size' => '30',	
@@ -41,7 +41,7 @@ $TCA['tx_bbrpglog_characer'] = array (
 		),
 		'avatar' => array (		
 			'exclude' => 0,		
-			'label' => 'LLL:EXT:bb_rpglog/locallang_db.xml:tx_bbrpglog_characer.avatar',		
+			'label' => 'LLL:EXT:bb_rpglog/locallang_db.xml:tx_bbrpglog_character.avatar',		
 			'config' => array (
 				'type' => 'group',
 				'internal_type' => 'file',
@@ -114,7 +114,7 @@ $TCA['tx_bbrpglog_group'] = array (
 			'config' => array (
 				'type' => 'group',	
 				'internal_type' => 'db',	
-				'allowed' => 'tx_bbrpglog_characer',	
+				'allowed' => 'tx_bbrpglog_character',	
 				'size' => 5,	
 				'minitems' => 0,
 				'maxitems' => 100,	
@@ -132,7 +132,7 @@ $TCA['tx_bbrpglog_group'] = array (
 
 
 
-$TCA['tx_bbrpglog_rules'] = array (
+/**$TCA['tx_bbrpglog_rules'] = array (
 	'ctrl' => $TCA['tx_bbrpglog_rules']['ctrl'],
 	'interface' => array (
 		'showRecordFieldList' => 'hidden,name,class'
@@ -169,4 +169,5 @@ $TCA['tx_bbrpglog_rules'] = array (
 		'1' => array('showitem' => '')
 	)
 );
+**/
 ?>

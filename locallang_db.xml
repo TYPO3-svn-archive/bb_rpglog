@@ -6,10 +6,10 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="tx_bbrpglog_characer">RPG Character</label>
-			<label index="tx_bbrpglog_characer.player">player</label>
-			<label index="tx_bbrpglog_characer.name">Charname</label>
-			<label index="tx_bbrpglog_characer.avatar">Avatar</label>
+			<label index="tx_bbrpglog_character">RPG Character</label>
+			<label index="tx_bbrpglog_character.player">player</label>
+			<label index="tx_bbrpglog_character.name">Charname</label>
+			<label index="tx_bbrpglog_character.avatar">Avatar</label>
 			<label index="tx_bbrpglog_group">RPG Group</label>
 			<label index="tx_bbrpglog_group.name">Groupname</label>
 			<label index="tx_bbrpglog_group.description">description</label>
@@ -19,10 +19,10 @@
 			<label index="tx_bbrpglog_rules.class">extension</label>
 		</languageKey>
 		<languageKey index="de" type="array">
-			<label index="tx_bbrpglog_characer">Rollenspiel Charakter</label>
-			<label index="tx_bbrpglog_characer.player">Spieler</label>
-			<label index="tx_bbrpglog_characer.name">Charaktername</label>
-			<label index="tx_bbrpglog_characer.avatar">Avatar</label>
+			<label index="tx_bbrpglog_character">Rollenspiel Charakter</label>
+			<label index="tx_bbrpglog_character.player">Spieler</label>
+			<label index="tx_bbrpglog_character.name">Charaktername</label>
+			<label index="tx_bbrpglog_character.avatar">Avatar</label>
 			<label index="tx_bbrpglog_group">Rollenspielgruppe</label>
 			<label index="tx_bbrpglog_group.name">Gruppenname</label>
 			<label index="tx_bbrpglog_group.description">Beschreibung</label>
